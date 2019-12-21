@@ -118,8 +118,13 @@
               "devServerTarget": "MyApp:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "MyApp"
 }
